@@ -1,0 +1,19 @@
+Started by user [8mha:////4D0x9AioEXtikORNekonXwgvYOZCTqrxMVJGtxU+cw0zAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL94sSyzJJEAFwI7XDBAAAA[0mSavita
+Running as SYSTEM
+Building remotely on [8mha:////4MQga894HYMoYX2MkGz1kAIXeq1jJIePI4BE4K63rI/xAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/eT83ILSktQi/bzUcoXinMSyVAAXf7JEyAAAAA==[0mnew slave in workspace /home/ec2-user/workspace/projectc
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/projectc/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/SavitaHongeri/cproject.git # timeout=10
+Fetching upstream changes from https://github.com/SavitaHongeri/cproject.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/SavitaHongeri/cproject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 19cfaaad1ca2315e5cfe0705b7fd56da4ba8f0d6 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 19cfaaad1ca2315e5cfe0705b7fd56da4ba8f0d6 # timeout=10
+Commit message: "Create testing"
+ > git rev-list --no-walk 19cfaaad1ca2315e5cfe0705b7fd56da4ba8f0d6 # timeout=10
+Finished: SUCCESS
